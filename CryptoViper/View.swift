@@ -45,6 +45,7 @@ class CryptoViewController : UIViewController, AnyView, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .yellow
         
         view.addSubview(tableView)
         view.addSubview(messageLabel)
@@ -78,7 +79,7 @@ class CryptoViewController : UIViewController, AnyView, UITableViewDelegate, UIT
     }
     
     func update(with error: String) {
-        <#code#>
+        print("error")
     }
     
     
