@@ -39,13 +39,9 @@ class CryptoInteractor : AnyInteractor {
             } catch {
                 
             }
-            
-   
         }
         
         task.resume()
         
     }
-    
-    
 }
