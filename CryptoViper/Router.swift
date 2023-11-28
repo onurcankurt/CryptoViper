@@ -15,6 +15,7 @@ protocol AnyRouter {
 }
 
 class CryptoRouter : AnyRouter {
+    
     static func startExecution() -> AnyRouter {
         
         let router = CryptoRouter()
